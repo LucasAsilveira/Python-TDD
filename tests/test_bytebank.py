@@ -1,4 +1,4 @@
-from bytebank import Funcionario
+from codigo.bytebank import Funcionario
 import pytest
 from pytest import mark
 
@@ -59,3 +59,7 @@ class TestClass:
             resultado = funcionario_teste.calcular_bonus()
 
             assert resultado 
+
+
+    
+ 
