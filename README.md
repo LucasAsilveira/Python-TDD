@@ -10,4 +10,4 @@ Os testes unitário, que é o foco destes estudo, testa método ou pequena parte
 ## 2. Técnicas Usadas:
 - Pytest: Para testar código iremos usar um Framework especializado em testes e um dos mais utilizados para esta linguagem o Pytest.
 - Test-Driven Development: Iremos utilizar como lógico de testagem, começar pelo Testes -> Código -> Refatoração. Para executar novas funcoes pedidas na implementacao do programa e aplicar testes nas partes ja prontas do código.
--
+-![image]([https://user-images.githubusercontent.com/94136773/161434221-e13c1741-955c-49fc-9494-a9ef38b315af.png](https://docs.google.com/document/d/1MrGi_pxV7pSWvkfKRBqZbl0_7-1hFKAtKf4myrrfsaU/edit#heading=h.ydwre5b2yhq5))
