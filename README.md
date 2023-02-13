@@ -23,6 +23,8 @@ Primeiro testamos os metodos ja existentes na classe bytebank. Utiliando o pytes
 Foram realizados 4 testes para todos os metodos e no final incluso uma nova regra onde seguindo a metodologia TDD fizemos primeiro o teste, depois foi desenvolvido o novo metodo para passar nestes teste e em seguida refatoramos o metodo, o metodo incluso foi para calcular uma bonificação ao funcionarios com um exception, para nao realizar o pagamento deste bonus caso o funcionario tivesse um bous maior do que 1000 Reais a receber. 
 O codigo dos testes realizado pode ser encontrado nes [link](https://github.com/LucasAsilveira/Python-TDD/blob/main/tests/test_bytebank.py) do repositorio do projeto.
 Para garantir a cobertura de todos os testes foi usado o pytest-cov, ao rodar o teste de cobertura verificou que apenas uma função não estava coberta pelos testes, esta era a funcao string, que realmente não era necessitava de teste, assim foi configurado no arquivo .coveragerc, utilizando o exclude_lines, para que o converge ignorasse este metodo. 
+Um ponto a ressaltar é que devemos utilizar todos os metodos da programa test, começando com a palavra 'test', assim como a pasta onde ficaram os tests e o nome do programa para que quando rodarmos o pytest ele reconheça o que rodar nos testes. 
+
 
 ## 4.0 Conclusão
 
